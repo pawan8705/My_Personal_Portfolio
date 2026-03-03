@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="Pawan Tripathi — Frontend Developer | React.js, Tailwind CSS, GSAP" />
+  <meta name="theme-color" content="#0f1117" />
+  <title>Pawan Tripathi | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@100;200;300;400;500;600;700;800;900&family=Geist+Mono:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <style>
+    /* Inline critical overflow fix — loads before any JS/CSS */
+    html,
+    body {
+      overflow-x: hidden !important;
+      width: 100%;
+      max-width: 100vw;
+    }
+
+    #root {
+      overflow-x: hidden;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.style.overflowX = 'hidden';
+      document.body.style.overflowX = 'hidden';
+    });
+  </script>
+
+</body>
+
+</html>
