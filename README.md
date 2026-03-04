@@ -2,18 +2,11 @@
 
 # 🚀 Pawan Tripathi — Personal Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-pawantripathi.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://pawantripathi.vercel.app/)
-[![React](https://img.shields.io/badge/React-19-38bdf8?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-10d9a0?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-7-f472b6?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-
 <br/>
 
 > **A modern, responsive personal portfolio built with React.js, Tailwind CSS v4, and Neuromorphic UI design.**
 
 <br/>
-
-![Portfolio Preview](https://pawantripathi.vercel.app/og-preview.png)
 
 </div>
 
@@ -78,18 +71,6 @@ src/
 ├── main.jsx
 └── index.css
 ```
-
-## 📸 Sections
-
-| Section | Description |
-|---------|-------------|
-| **Hero** | Name, typewriter effect, stats, social links, CV download |
-| **About** | Bio, contact info, tech stack |
-| **Skills** | 6 skill categories with badges |
-| **Projects** | 8 projects with live demo & GitHub links |
-| **Experience** | Work timeline |
-| **Education** | Academic background + Certifications |
-| **Contact** | EmailJS contact form with validation |
 
 ---
 
