@@ -1,40 +1,125 @@
-Pawantripathi875@gmail.com
+<div align="center">
 
-Iss website mai animation tou add hi nahi kiya hai + font family bekar lar rha hai
+# 🚀 Pawan Tripathi — Personal Portfolio
 
-Problems:-
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-pawantripathi.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://pawantripathi.vercel.app/)
+[![React](https://img.shields.io/badge/React-19-38bdf8?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-10d9a0?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-7-f472b6?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-1. Har jagah CSS use kiya hai Tailwind CSS use karo.
-2. Loading bar sahi nahi lag rha hai
-3. Lazy loading add karo
-4. Toggle theme(Dark/light mode)
-5. mane niche kuch OSM personal portfolio ka link diya hai unhe dekho or wesa hii smooth, OSM, & modern banao or ha Neuromorphic UI look dou with animation Khas kar 1st wal dekho
+<br/>
 
-i. https://youtu.be/J0sT7d0r6T4?si=fVNU6qGAPYjmZpJu
-ii. https://youtube.com/playlist?list=PLXQpH_kZIxTWgPEnocGfpQo4XLrgcx63M&si=pFkWo2XWmuSal7r8
-iii. https://youtu.be/Y4-xMb-eHOQ?si=oQdo6qngiZdqtxyH
-iv. https://sarnadipchandra-portfolio.netlify.app
-v. https://sachin-r-portfolio.netlify.app/
-vi. https://youtu.be/kLEBM1_7fWY?si=OJc6g2OJ0FBbk4TW
+> **A modern, responsive personal portfolio built with React.js, Tailwind CSS v4, and Neuromorphic UI design.**
 
-6. GeistSans font family use karo jo vercel ne diya hai
-7. typewriting effect daalo jesa niche diya hai
-   https://youtube.com/shorts/mDh2BQ2APyo?si=_ZJau0trb2j4Brj1
+<br/>
 
-8. Or ha responsive ho
+![Portfolio Preview](https://pawantripathi.vercel.app/og-preview.png)
 
-https://codepen.io/andymerskin/pen/XNMWvQ
+</div>
 
+---
 
+## ✨ Features
 
+- 🎨 **Neuromorphic UI** — Sleek dark/light mode with smooth theme toggle
+- ⚡ **Blazing Fast** — Vite + React 19 + Lazy loading for optimal performance
+- 📱 **Fully Responsive** — Mobile-first design, works on all screen sizes
+- ⌨️ **Typewriter Effect** — Animated role titles in Hero section
+- 🌗 **Dark / Light Mode** — Persistent theme saved in localStorage
+- 📧 **Contact Form** — EmailJS integration with auto-save draft feature
+- 🔄 **Scroll Progress Bar** — Visual reading progress indicator
+- ⬆️ **Scroll To Top** — Animated button with circular progress ring
+- 💫 **CSS Animations** — Smooth entry animations, glow effects, hover states
+- 📦 **Lazy Loading** — All sections load on demand via React Suspense
 
+---
 
-UI change karne ko bola tumne same UI de diya
+## 🛠️ Tech Stack
 
-Ek kaam karo Hero section se Image remove kar dou vo bekar lag rha hai
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React.js 19, JavaScript (ES6+), TypeScript |
+| **Styling** | Tailwind CSS v4, CSS Variables, Neuromorphic Design |
+| **Build Tool** | Vite 7 |
+| **Icons** | React Icons, Lucide React |
+| **Email** | EmailJS |
+| **Font** | Geist & Geist Mono (by Vercel) |
+| **Deployment** | Vercel |
 
-https://youtu.be/kLEBM1_7fWY?si=EmNmoBX-M6GR_Arq
-https://youtu.be/oUq0ah8GcMw?si=ppFzrZOxFANUTJAg
-https://youtu.be/ifOJ0R5UQOc?si=UWcY0O7tlnhXlphb
+---
 
-Kuch OSM UI banao jesa Upper links mai diya hai tou esa hii cool banao khas kar Anurag wala dekhna or ha responsive ho
+## 📁 Project Structure
+
+```
+src/
+├── assets/          # Images (Hero.jpg, About.jpg)
+├── components/      # All UI components
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   ├── Experience.jsx
+│   ├── Education.jsx
+│   ├── Contact.jsx
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Loader.jsx
+│   ├── MarqueeBar.jsx
+│   └── Certifications.jsx
+├── context/
+│   └── ThemeContext.jsx  # Dark/Light mode
+├── data/
+│   └── index.js          # All portfolio data
+├── hooks/
+│   └── index.js          # Custom hooks
+├── utils/
+│   └── store.js          # LocalStorage utility
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 📸 Sections
+
+| Section | Description |
+|---------|-------------|
+| **Hero** | Name, typewriter effect, stats, social links, CV download |
+| **About** | Bio, contact info, tech stack |
+| **Skills** | 6 skill categories with badges |
+| **Projects** | 8 projects with live demo & GitHub links |
+| **Experience** | Work timeline |
+| **Education** | Academic background + Certifications |
+| **Contact** | EmailJS contact form with validation |
+
+---
+
+## 🌐 Live Demo
+
+👉 **[pawantripathi.vercel.app](https://pawantripathi.vercel.app/)**
+
+---
+
+## 📬 Contact
+
+**Pawan Tripathi**
+
+[![Gmail](https://img.shields.io/badge/Gmail-tripathipawan8705@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tripathipawan8705@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pawantripathi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pawantripathi)
+[![GitHub](https://img.shields.io/badge/GitHub-pawan8705-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/pawan8705)
+[![YouTube](https://img.shields.io/badge/YouTube-TripathiDevLab-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@tripathidevlab)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+Made with ❤️ by **[Pawan Tripathi](https://pawantripathi.vercel.app/)** — *@tripathidevlab | Learn | Build | Grow*
+
+⭐ **Star this repo if you found it helpful!**
+
+</div>
