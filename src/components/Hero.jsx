@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState } from 'react'
 import { personal, phrases, socials, stats, Resume } from '../data/index'
 import { FaGithub, FaLinkedin, FaYoutube, FaInstagram, FaCodepen, FaWhatsapp, FaFacebook } from 'react-icons/fa'
@@ -294,7 +293,6 @@ export default function Hero() {
                       {personal.role}
                     </p>
                   </div>
-
                 </div>
               </div>
             </div>

@@ -6,6 +6,7 @@ export const personal = {
   email: "tripathipawan8705@gmail.com",
   phone: "+91 6396096431",
   bio: "Passionate Frontend Developer crafting pixel-perfect, high-performance web applications. I blend clean code with creative design — turning complex ideas into seamless digital experiences.",
+  Aboutbio: "I'm Pawan Tripathi, a passionate Frontend Developer from Uttarakhand, India, currently pursuing my BCA at MAHGU. I specialize in building responsive, pixel-perfect web applications using React.js, TypeScript, and Tailwind CSS. With 75+ projects and a strong eye for UI/UX, I blend clean code with creative design to craft seamless digital experiences. Beyond coding, I run Tripathi Dev Lab — a YouTube channel where I share web dev tutorials and insights with the developer community. I'm always exploring the latest in frontend tech, AI dev tools, and open-source — and I'm currently open to freelance projects and exciting opportunities.",
   status: "Open to Opportunities",
 }
 
@@ -71,8 +72,8 @@ export const projects = [
     id: 1, emoji: "🏥", title: "Personal Portfolio", cat: "Frontend", featured: true,
     desc: "Personal portfolio showcasing projects, skills, and experience using React, responsive UI, modern styling, and smooth interactions.",
     tech: ["JavaScript", "React.js", "Tailwind CSS", "Lucide React", "React Icons"],
-    github: "https://github.com/pawan8705/Doctor_Booking_App",
-    live: "https://appointment-booking-app-87.vercel.app/",
+    github: "https://github.com/pawan8705/My_Personal_Portfolio",
+    live: "https://pawantripathi.vercel.app/",
     color: "#12c600",
   },
   {

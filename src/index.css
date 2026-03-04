@@ -55,6 +55,9 @@ body,
   width: 100%;
   max-width: 100%;
 }
+* {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: var(--font);

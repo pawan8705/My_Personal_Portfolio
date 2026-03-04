@@ -45,7 +45,7 @@ export default function MarqueeBar() {
         borderColor: 'var(--border)',
         background: 'linear-gradient(90deg, var(--bg0) 0%, var(--bg2) 50%, var(--bg0) 100%)',
         overflow: 'hidden', 
-        maxWidth: '100vw',       
+        // maxWidth: '100vw',       
       }}
     >
       <div className="marquee-track">

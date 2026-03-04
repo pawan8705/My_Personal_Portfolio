@@ -218,7 +218,7 @@ export default function Navbar({ ready }) {
             <div className="h-px my-3" style={{ background: 'var(--border)' }} />
 
             <a
-              href="mailto:tripathipawan8705@gmail.com"
+              href="#contact"
               onClick={() => setOpen(false)}
               className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-bold text-white
                          hover:opacity-90 transition-opacity duration-200"

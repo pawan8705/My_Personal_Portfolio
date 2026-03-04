@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { personal, stats, socials } from '../data/index'
+import { personal, socials } from '../data/index'
 import { FaGithub, FaLinkedin, FaYoutube, FaInstagram, FaCodepen, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 import MYImg from '../assets/About.jpg'
 
@@ -154,7 +154,7 @@ export default function About() {
           <div ref={textRef} className="flex flex-col gap-7">
             <div>
               <p className="text-[1rem] leading-[1.9]" style={{ color: 'var(--text2)' }}>
-                {personal.bio}
+                {personal.Aboutbio}
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -190,27 +190,6 @@ export default function About() {
                       {item.value}
                     </p>
                   </div>
-                </div>
-              ))}
-            </div>
-            <div className="grid grid-cols-3 gap-3">
-              {stats.map((s) => (
-                <div key={s.label}
-                  className="about-stat rounded-2xl p-5 flex flex-col items-center justify-center text-center"
-                  style={{
-                    background: 'linear-gradient(145deg, var(--bg2), var(--bg3))',
-                    boxShadow: 'var(--neu-out)',
-                    border: '1px solid var(--border)',
-                  }}
-                >
-                  <span className="font-black text-2xl leading-none g-text mb-1"
-                    style={{ fontFamily: 'var(--font)' }}>
-                    {s.value}
-                  </span>
-                  <span className="text-[10px] font-semibold uppercase tracking-wider"
-                    style={{ color: 'var(--text3)' }}>
-                    {s.label}
-                  </span>
                 </div>
               ))}
             </div>
