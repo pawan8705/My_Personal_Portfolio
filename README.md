@@ -31,7 +31,7 @@
 
 | Category | Technologies |
 |----------|-------------|
-| **Frontend** | React.js 19, JavaScript (ES6+), TypeScript |
+| **Frontend** | React.js 19, JavaScript (ES6+) |
 | **Styling** | Tailwind CSS v4, CSS Variables, Neuromorphic Design |
 | **Build Tool** | Vite 7 |
 | **Icons** | React Icons, Lucide React |
