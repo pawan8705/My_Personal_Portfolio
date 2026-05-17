@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pawantripathi.vercel.app/sitemap.xml

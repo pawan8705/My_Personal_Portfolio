@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pawan Tripathi — Frontend Developer | React.js, Tailwind CSS" />
+  <meta name="theme-color" content="#0f1117" />
+  <link rel="icon" type="image/x-icon" href="./src/assets/favicon img .webp" />
+  <title>Pawan Tripathi | Frontend Developer</title>
+  <link rel="preload" as="image" href="/src/assets/Hero.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    html,
+    body {
+      overflow-x: hidden !important;
+      width: 100%;
+      max-width: 100vw;
+    }
+
+    #root {
+      overflow-x: hidden;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.style.overflowX = 'hidden';
+      document.body.style.overflowX = 'hidden';
+    });
+  </script>
+
+</body>
+
+</html>
