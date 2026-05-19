@@ -11,7 +11,7 @@ export const personal = {
 }
 
 export const Resume = {
-  link: "https://drive.google.com/file/d/1Q5rFXMimNR5cgKz56BMjXDXHqRt9ON6A/view?usp=drivesdk",
+  link: "https://drive.google.com/file/d/1mROYY22_Ka89YtnLvXdvBaiXwuZhaCrv/view?usp=drivesdk",
 }
 
 export const phrases = [
@@ -101,15 +101,23 @@ export const projects = [
   },
 
   {
-    id: 5, emoji: "👟", title: "Nike Landing Page", featured: false,
+    id: 5, emoji: "🌈", title: "Color Pallate website", featured: false,
+    desc: "Pixel-perfect Nike landing page with smooth animations and premium feel showcasing advanced Tailwind.",
+    tech: ["JavaScript", "React.js", "Tailwind CSS", "Framer Motion", "Lucide Icons"],
+    github: "https://github.com/tripathipawan/Color_Picker_Website",
+    live: "https://paletteflow-studio.vercel.app/",
+    color: "#f43f5e",
+  },
+  {
+    id: 6, emoji: "👟", title: "Nike Landing Page", featured: false,
     desc: "Pixel-perfect Nike landing page with smooth animations and premium feel showcasing advanced Tailwind.",
     tech: ["JavaScript", "React.js", "Tailwind CSS", "Framer Motion", "Lucide Icons"],
     github: "https://github.com/tripathipawan/Nike",
     live: "https://nike-eta-beryl.vercel.app/",
-    color: "#f43f5e",
+    color: "#f59e0b",
   },
   {
-    id: 6, emoji: "📊", title: "Projects Showcase Website", featured: true,
+    id: 7, emoji: "📊", title: "Projects Showcase Website", featured: true,
     desc: "Multiple Projects Showcase Website with responsive design and smooth animations.",
     tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     github: "https://github.com/tripathipawan/",
