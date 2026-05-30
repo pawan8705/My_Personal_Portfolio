@@ -6,7 +6,7 @@ A production-deployed personal portfolio website built with React 19, TypeScript
 
 ## Live Demo
 
-**[https://pawantripathi.vercel.app/](https://pawantripathi.vercel.app/)**
+**[https://pawan8705.vercel.app/](https://pawan8705.vercel.app/)**
 
 ---
 
