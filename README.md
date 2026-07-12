@@ -217,7 +217,7 @@ Same timeline layout as Experience but using a green gradient (`var(--green) →
 
 3-column grid. Each card (`cert-rv`) reveals from `translateY(18px)` with `--cert-d` stagger (60ms × index). On hover: `translateY(-6px)`. Each card has a color-keyed top border with `box-shadow: 0 0 10px ${c.color}44` glow. `View Certificate` link opens in new tab.
 
-1 certification:
+1 certifications:
 
 - **JavaScript — The Complete Guide** — CodeChef, 2024
 
